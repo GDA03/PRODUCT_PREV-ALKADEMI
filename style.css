@@ -1,0 +1,108 @@
+body{
+    background-image: url(bg.jpg);
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.content{
+    width: 1440px;
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    padding-bottom: 180px;
+    padding-top: 180px;
+    border-radius: 8px;
+    box-shadow: 20px;
+}
+
+table{
+    width: 520px;
+    border: 1px solid hsl(30, 38%, 92%);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0, 0%, 100%);;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.image{
+    padding: 0px;
+
+}
+
+.image img{
+    width: 240px;
+    margin: -2px;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+
+.isi{
+    padding: 0px;
+    margin: 0px;
+}
+
+.isi li{
+    margin: 15px;
+    margin-left: -10px;
+}
+
+.perfume{
+    font-family: 'montserrat';
+    color: hsl(228, 12%, 48%);
+}
+
+.nama{
+    font-size: 26px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700px;
+}
+
+.desc{
+    font-family: 'montserrat';
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    font-size: 26px;
+    font-weight: bold; 
+    color: hsl(158, 36%, 37%)
+}
+
+.price .stripe{
+    font-size: 12px;
+    display: inline;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.buy{
+    font-family: 'montserrat';
+    border: 1px solid hsl(0, 0%, 100%);;
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.buy a{
+    text-decoration: none;
+    color: white;
+}
+.buy:hover{
+    border-radius: 8px;
+    background-color: hsl(158, 40%, 23%);
+}
+
+.attribution{
+    color: hsl(228, 45%, 44%);
+    text-align: center;
+}
+
+.attribution a{
+    font-size: 11px;
+}
